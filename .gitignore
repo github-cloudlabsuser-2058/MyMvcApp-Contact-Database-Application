@@ -1,0 +1,75 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET temporary files
+*.vspscc
+*.vssscc
+
+# Logs
+*.log
+
+# Publish directory
+publish/
+out/
+
+# Azure deployment files
+*.azurepubxml
+*.publishsettings
+
+# Environment files
+.env
+.env.*
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# npm packages (if any frontend)
+node_modules/
+
+# Mac and Linux files
+.DS_Store
+*.swp
+
+# Auto-generated files
+*.Generated.cs
+
+# ARM deployment artifacts
+# *.parameters.json
+
+# Exclude secrets
+secrets.json
+
+# Exclude user secrets
+#*.secret.json
+
+# Rider IDE files
+.idea/
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Backup files
+*~
+*.bak
+
+# Exclude local settings
+appsettings.Development.json
+
+# # Exclude deployment debug files
+# *.deploy.cmd
+# *.deploy.ps1
+# *.deploy.sh
